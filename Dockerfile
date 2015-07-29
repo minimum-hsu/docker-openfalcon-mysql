@@ -2,7 +2,7 @@ FROM mysql:5.6
 
 MAINTAINER minimum@cepave.com
 
-# Install Open-Falcon Graph Database
+# Install Open-Falcon Database
 RUN \
   apt-get update && \
   apt-get install -y git && \
