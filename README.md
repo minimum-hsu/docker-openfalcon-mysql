@@ -11,7 +11,7 @@ $sudo docker build --force-rm=true -t openfalcon-mysql .
 ## Run
 
 ```
-$sudo docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password --name mysql openfalcon-mysql
+$sudo docker run -dti -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password --name mysql openfalcon-mysql
 ```
 
 You can use your password to replace **password** in *MYSQL_ROOT_PASSWORD*.
